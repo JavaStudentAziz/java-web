@@ -1,0 +1,30 @@
+body {
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20200630/pngtree-blueprint-digital-paper-background-design-super-high-resolution-image_340503.jpg);
+    
+}
+p {
+    color: blue;
+}
+
+#yellow {
+    color: yellow;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.pink {
+    color: pink;
+    background-image: url(https://static-cse.canva.com/blob/848592/20201027T174559.462.jpg);
+    height: 400px;
+    width: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+body p {
+    color: aqua;
+}
+
+div p + a {
+    color: red;
+}

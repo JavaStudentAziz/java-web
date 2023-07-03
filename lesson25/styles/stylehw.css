@@ -1,0 +1,80 @@
+body {
+    background-image: url(https://ngcmshak.ru/uploads/dsn/fe/72/001/1587646418_38-p-besshovnie-foni-dlya-saitov-112.jpg);
+    margin: 0;
+}
+.divtop {
+    display: inline-block;
+    font-size: 32px;
+    padding: 10px 50px;
+    margin-left: 8em;
+}
+.div1 {
+    background-color: rgba(40, 137, 247, 0.9);
+    margin: 100;
+}
+.div2 {
+    position: relative;
+    padding: 10px 48px;
+}
+.div3 {
+    display: inline-block;
+    position: absolute;
+    top: 2em;
+    left: 8em;
+    bottom: 4em;
+    font-size: 32px;
+    border: 4px solid;
+    border-color: rgb(62, 19, 102);
+    border-radius: 100px;
+    background-color: rgba(66, 8, 105, 0.3);
+    padding: 10%;
+    margin: 0;
+    margin-left: 4em;
+}
+.div4 {
+    margin-top: 4em;
+    margin-left: 2em;
+}
+.div5 {
+    margin-left: 2em;
+}
+.courses {
+    display: inline;
+    font: 1em sans-serif;
+}
+img {
+    position: absolute;
+    right: 16em;
+}
+button {
+    border: 2px solid;
+    border-radius: 20px;
+    margin: 10px;
+    margin-left: 28em;
+}
+button:hover {
+    background-color: orangered;
+    color: orange;
+}
+header {
+    display: block;
+}
+td {
+    border: 2px solid;
+    padding: 1em;
+}
+table {
+    border-collapse: collapse;
+    margin: 5%;
+    font: 1em sans-serif;
+    margin-left: 24em;
+}
+.head {
+    background-color: rgba(113, 88, 255, 0.7);
+}
+h2 {
+    color: rgb(197, 207, 59);
+}
+h1 {
+    color: rgb(51, 253, 253);
+}

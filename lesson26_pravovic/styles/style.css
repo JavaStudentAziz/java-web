@@ -1,0 +1,92 @@
+.bg-body-tertiary {
+    --bs-bg-opacity: 0;
+}
+.col-sm-8 {
+    padding-top: 3%;
+}
+.nav-item, .nav-link.active {
+    margin-left: 5%;
+    text-align: center;
+    font-size: 17px;
+    width: 140px;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: #ffffff;
+}
+.first-block {
+    background-image: url(../img/взыскание.png);
+    background-size: cover;
+}
+.white-box {
+    background-color: #ffffff;
+    border-color: grey;
+    border-radius: 1px;
+}
+.h1 {
+    width: 100%;
+    font-size: 64px;
+    color: #ffffff;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.h2 {
+    font-size: 28px;
+}
+.h3 {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+    color: rgb(0, 162, 255);
+}
+.h4 {
+    font-size: 30px;
+    color: #ffffff;
+    text-align: center;
+}
+.contacts {
+    margin-top: 2%;
+    color: #ffffff;
+}
+.intro-h {
+    padding-top: 8%;
+    padding-bottom: 5%;
+}
+.row {
+
+    color: white;
+    padding-bottom: 10%;
+}
+.name {
+    color: black;
+    width: 88%;
+    padding: 15px 25px;
+    margin: 5px 25px;
+    border-radius: 1px;
+    opacity: 0.5;
+}
+.phone {
+    color: black;
+    width: 88%;
+    padding: 15px 25px;
+    margin: 5px 25px;
+    border-radius: 1px;
+    opacity: 0.5;
+}
+.button_1 {
+    background-color: rgb(0, 162, 255);
+    text-align: center;
+    width: 88%;
+    padding: 15px 25px;
+    margin: 10px 25px;
+    margin-bottom: 30px;
+    border-radius: 7px;
+    border-color: rgb(0, 162, 255);
+}
+.button-text {
+    font-size: 18px;
+    color: #ffffff;
+}
+.row-li {
+    font-size: 19px;
+    padding: 25px 10px;
+}
