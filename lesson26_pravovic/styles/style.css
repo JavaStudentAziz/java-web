@@ -4,6 +4,9 @@
 .col-sm-8 {
     padding-top: 3%;
 }
+.col-sm-4 {
+    min-width: 300px;
+}
 .nav-item, .nav-link.active {
     margin-left: 5%;
     text-align: center;
@@ -16,6 +19,12 @@
 .first-block {
     background-image: url(../img/взыскание.png);
     background-size: cover;
+    position: relative;
+    top: -108px;
+}
+.container {
+    position: relative;
+    top: 108px;
 }
 .white-box {
     background-color: #ffffff;
@@ -89,4 +98,10 @@
 .row-li {
     font-size: 19px;
     padding: 25px 10px;
+}
+.row-li::before {
+    content: url();
+}
+ul {
+    list-style-type: none;
 }
