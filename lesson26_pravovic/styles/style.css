@@ -2,6 +2,14 @@
 * {
     font-family: 'Roboto', sans-serif;
 }
+@media(max-width:480px) {
+    * {
+        color: aqua;
+    }
+    .some-block {
+        width: 480px;
+    }
+}
 .bg-body-tertiary {
     --bs-bg-opacity: 0;
 }
@@ -30,6 +38,9 @@
 .container-first {
     position: relative;
     top: 108px;
+}
+.container-second {
+    margin-bottom: 10%;
 }
 .white-box {
     background-color: #ffffff;
@@ -153,8 +164,10 @@ ul {
     align-self: center;
 }
 .img-icon {
-    align-self: center;
+    padding: 28%;
 }
-.discription {
+.descr {
+    text-align: center;
+    margin-top: 10%;
     max-width: 200px;
 }
