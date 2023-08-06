@@ -22,23 +22,11 @@ body {
 .navbar-border {
     border-radius: 5px;
 }
-.semester-select {
-    display: flex;
+.disc-list {
     margin-top: 5%;
-    flex-direction: row;
-    justify-content: flex-start;
+    margin-bottom: 2%;
 }
-.select-item {
-    align-self: center;
-}
-.to-align {
-    align-self: center;
-    margin: 10px 20px;
-}
-.choose {
-    padding: 5px;
-}
-.terms-page {
+.disc-page {
     display: flex;
     flex-direction: row;
 }
@@ -60,13 +48,11 @@ td,th {
     padding: 40px 10px;
     text-align: start;
 }
-.choose-button {
-    font-size: 18px;
-    border: 2px solid black;
-    border-radius: 10px;
-    width: 200%;
+.col-sm-7 {
+    display: flex;
+    flex-direction: column;
 }
-.sem-button {
+button {
     font-size: 20px;
     width: 60%;
     margin-left: 10%;
